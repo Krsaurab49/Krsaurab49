@@ -11,12 +11,26 @@
 - TCL | Python | Git
 
 ## 🚀 Featured Projects
-| Project | Highlights |
-|---|---|
-| [Hybrid Multiplier](https://github.com/Krsaurab49/hybrid-multiplier-fpga) | 134 MHz, +57% speed improvement, 312 LUTs |
-| [4-Bit ALU](https://github.com/Krsaurab49/4bit-alu-verilog) | 100 MHz, 48 LUTs, zero lint warnings |
-| [Traffic Light FSM](https://github.com/Krsaurab49/traffic-light-fsm-verilog) | Mealy/Moore hybrid, Basys 3 validated |
 
+### 🔹 Hybrid Multiplier on FPGA
+- Designed high-speed multiplier using Booth encoding + hybrid adder  
+- Achieved 134 MHz on Artix-7 FPGA (+57% improvement)  
+- Utilized 312 LUTs with zero timing violations  
+👉 https://github.com/Krsaurab49/hybrid-multiplier-fpga  
+
+---
+
+### 🔹 4-bit ALU (Verilog)
+- Designed ALU supporting arithmetic and logical operations  
+- Achieved 100 MHz performance with optimized logic  
+👉 https://github.com/Krsaurab49/4bit-alu-verilog  
+
+---
+
+### 🔹 Traffic Light FSM Controller
+- Designed Mealy/Moore FSM for traffic control  
+- Implemented and validated on FPGA (Basys 3)  
+👉 https://github.com/Krsaurab49/traffic-light-fsm-verilog
 ## 📬 Contact
 - 📧 krsaurab62@gmail.com
 - 💼 [LinkedIn](https://linkedin.com/in/kumarsaurab49)
