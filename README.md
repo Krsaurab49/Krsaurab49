@@ -1,36 +1,128 @@
-# Hi, I'm Kumar Saurab 👋
+�
 
-🎓 M.Tech — Microelectronics & VLSI Technology (CGPA: 8.44)
-💼 RTL Design Engineer | VLSI | FPGA
-📍 India
+�
 
-## 🛠️ Skills
-- Verilog HDL | SystemVerilog (learning)
-- Xilinx Vivado | ModelSim | XDC Constraints
-- FSM Design | Pipelining | Timing Closure
-- TCL | Python | Git
+�
+￼
+�
 
-## 🚀 Featured Projects
+�
+￼
+�
 
-### 🔹 Hybrid Multiplier on FPGA
-- Designed high-speed multiplier using Booth encoding + hybrid adder  
-- Achieved 134 MHz on Artix-7 FPGA (+57% improvement)  
-- Utilized 312 LUTs with zero timing violations  
-👉 https://github.com/Krsaurab49/hybrid-multiplier-fpga  
 
----
+�
 
-### 🔹 4-bit ALU (Verilog)
-- Designed ALU supporting arithmetic and logical operations  
-- Achieved 100 MHz performance with optimized logic  
-👉 https://github.com/Krsaurab49/4bit-alu-verilog  
+�
+�
+Load image
+Load image
+�
 
----
+⚡ About Me
+module KumarSaurab (
+  input  wire  passion,
+  input  wire  mtech_degree,
+  output reg   rtl_engineer
+);
+  // M.Tech — Microelectronics & VLSI Technology
+  // CGPA : 8.44 / 10
+  // Focus : RTL Design | FPGA Synthesis | Timing Closure
+  // Board : Xilinx Artix-7 (Basys 3)
+  // Status: OPEN TO OPPORTUNITIES 🟢
 
-### 🔹 Traffic Light FSM Controller
-- Designed Mealy/Moore FSM for traffic control  
-- Implemented and validated on FPGA (Basys 3)  
-👉 https://github.com/Krsaurab49/traffic-light-fsm-verilog
-## 📬 Contact
-- 📧 krsaurab62@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/kumarsaurab49)
+  always @(*) begin
+    if (passion && mtech_degree)
+      rtl_engineer = 1'b1;  // Always true
+  end
+
+endmodule
+🛠️ Tech Stack
+�
+
+HDL & Languages
+�
+�
+�
+�
+Load image
+Load image
+Load image
+Load image
+EDA Tools & FPGA
+�
+�
+�
+�
+Load image
+Load image
+Load image
+Load image
+Design Skills
+�
+�
+�
+�
+Load image
+Load image
+Load image
+Load image
+�
+
+🚀 Featured Projects
+�
+
+Project
+Description
+Key Results
+🔲 Hybrid Multiplier — FPGA
+Booth encoding + Carry-Select/CLA adder tree on Artix-7
+134 MHz · +57% · 312 LUTs · 1024 vectors
+⚙️ 4-bit ALU — Verilog
+Full ALU with 6 arithmetic & logical operations
+100 MHz · Artix-7 · 100% Pass
+🚦 Traffic Light FSM
+Mealy/Moore hybrid FSM for 4-way intersection
+FPGA Validated · Basys 3
+�
+
+📊 GitHub Stats
+�
+
+�
+￼    ￼
+
+�
+￼
+�
+
+🏆 Key Achievements
+�
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    SYNTHESIS REPORT                             │
+├──────────────────────┬──────────────────────────────────────────┤
+│  Max Frequency       │  134 MHz  (+57% vs ripple-carry)        │
+│  LUT Utilisation     │  312 LUTs (12% of Artix-7)              │
+│  Setup Slack         │  +0.3 ns  (zero violations)             │
+│  Test Vectors        │  1,024    (100% PASS)                   │
+│  Degree              │  M.Tech VLSI · CGPA 8.44                │
+└──────────────────────┴──────────────────────────────────────────┘
+�
+
+📬 Connect With Me
+�
+
+�
+�
+�
+Load image
+Load image
+�
+
+�
+
+�
+￼
+"Design without verification is guesswork."
+�
