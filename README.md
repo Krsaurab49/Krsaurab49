@@ -1,3 +1,4 @@
+![Banner](./banner.svg)
 # Hi, I'm Kumar Saurab 👋
 
 > **RTL Design Engineer · Verilog HDL · FPGA · VLSI**
